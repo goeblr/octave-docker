@@ -5,7 +5,7 @@ set -e
 
 apt-get update
 apt-get install -y software-properties-common
-apt-get install -y octave octave-parallel octave-geometry octave-signal
+apt-get install -y octave octave-parallel octave-geometry octave-signal octave-statistics
 apt-get clean
 
 # prepare dir
